@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1c1c1c;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+button {
+  background: linear-gradient(45deg, #ff5f00, #ff2e00);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, #00bfff, #0077ff);
+  border-radius: 50%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+#messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.user-msg {
+  text-align: right;
+  margin: 5px;
+}
+
+.ai-msg {
+  text-align: left;
+  margin: 5px;
+  color: #00bfff;
+}
